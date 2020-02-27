@@ -199,3 +199,521 @@ ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback
 2020-02-27 11:08:14,985 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] Started WalmartAssignmentApplication in 5.656 seconds (JVM running for 7338.768)
 2020-02-27 11:08:14,990 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
 2020-02-27 11:08:14,990 DEBUG com.walmartassignment.WalmartAssignmentApplication [restartedMain] Application Started ...
+2020-02-27 22:13:23,700 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-27 22:13:26,941 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=2ceeead6-acb4-37d1-9b56-bf244f92a500
+2020-02-27 22:13:32,919 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-02-27 22:13:32,975 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 22:13:32,984 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-02-27 22:13:32,985 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 22:13:33,642 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-02-27 22:13:33,643 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 9822 ms
+2020-02-27 22:13:34,608 WARN org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration [restartedMain] No spring.application.name found, defaulting to 'application'
+2020-02-27 22:13:34,624 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 22:13:34,624 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 22:13:34,656 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 22:13:34,657 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 22:13:35,192 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 22:13:35,820 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-02-27 22:13:37,059 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-27 22:13:37,125 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 22:13:37,642 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] Started WalmartAssignmentApplication in 23.317 seconds (JVM running for 28.729)
+2020-02-27 22:13:37,644 DEBUG com.walmartassignment.WalmartAssignmentApplication [restartedMain] Application Started ...
+2020-02-27 22:14:37,248 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 22:14:37,257 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-02-27 22:14:37,282 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 24 ms
+2020-02-27 22:14:38,281 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] Class ProductResource Method getProducts
+2020-02-27 22:14:38,282 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] getProducts
+2020-02-27 22:14:39,323 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-1] fallbackMethod getProductsFallBack
+2020-02-27 22:14:39,324 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-1] fallbackMethod getProductsFallBack
+2020-02-27 22:15:02,903 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] Class ProductResource Method getProducts
+2020-02-27 22:15:02,904 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] getProducts
+2020-02-27 22:15:27,760 ERROR com.walmartassignment.exception.ProductResponseEntityExceptionHandler [http-nio-8080-exec-8] handleProductsExceptions 
+2020-02-27 22:15:27,767 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [com.walmartassignment.exception.ProductsPageSizeException]
+2020-02-27 22:15:29,718 ERROR com.walmartassignment.exception.ProductResponseEntityExceptionHandler [http-nio-8080-exec-9] handleProductsExceptions 
+2020-02-27 22:15:29,721 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.walmartassignment.exception.ProductsPageSizeException]
+2020-02-27 22:15:30,941 ERROR com.walmartassignment.exception.ProductResponseEntityExceptionHandler [http-nio-8080-exec-3] handleProductsExceptions 
+2020-02-27 22:15:30,943 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.walmartassignment.exception.ProductsPageSizeException]
+2020-02-27 22:17:09,772 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-3] Class ProductResource Method getProducts
+2020-02-27 22:17:09,772 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-3] getProducts
+2020-02-27 22:17:10,773 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-2] fallbackMethod getProductsFallBack
+2020-02-27 22:17:10,774 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-2] fallbackMethod getProductsFallBack
+2020-02-27 22:17:18,182 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-4] Class ProductResource Method getProducts
+2020-02-27 22:17:18,182 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-4] getProducts
+2020-02-27 22:25:50,072 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-8] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 22:25:52,965 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-27 22:25:53,706 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=2ceeead6-acb4-37d1-9b56-bf244f92a500
+2020-02-27 22:45:02,146 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-27 22:45:03,891 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=ddc2629a-65c5-37c6-8613-e47904ae9ed6
+2020-02-27 22:45:06,731 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-02-27 22:45:06,813 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 22:45:06,822 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-02-27 22:45:06,822 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 22:45:07,175 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-02-27 22:45:07,176 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 4987 ms
+2020-02-27 22:45:07,359 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productResource': Unsatisfied dependency expressed through field 'productService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productService' defined in file [G:\Suresh\walmart\walmart-assignment\target\classes\com\walmartassignment\service\ProductService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2020-02-27 22:45:07,363 INFO org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2020-02-27 22:45:07,410 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-27 22:45:07,940 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.walmartassignment.service.ProductService required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2020-02-27 22:47:05,137 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-27 22:47:06,705 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=2ceeead6-acb4-37d1-9b56-bf244f92a500
+2020-02-27 22:47:08,706 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-02-27 22:47:08,735 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 22:47:08,736 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-02-27 22:47:08,736 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 22:47:09,078 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-02-27 22:47:09,078 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 3898 ms
+2020-02-27 22:47:09,600 WARN org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration [restartedMain] No spring.application.name found, defaulting to 'application'
+2020-02-27 22:47:09,650 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 22:47:09,650 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 22:47:09,714 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 22:47:09,715 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 22:47:10,325 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 22:47:10,972 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-02-27 22:47:12,426 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-27 22:47:12,656 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 22:47:13,239 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] Started WalmartAssignmentApplication in 10.816 seconds (JVM running for 12.138)
+2020-02-27 22:47:13,243 DEBUG com.walmartassignment.WalmartAssignmentApplication [restartedMain] Application Started ...
+2020-02-27 22:47:23,174 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 22:47:23,174 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-02-27 22:47:23,234 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 59 ms
+2020-02-27 22:47:24,518 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] Class ProductResource Method getProducts
+2020-02-27 22:47:24,519 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] ++++++++++++++++++++++https://mobile-tha-server-8ba57.firebaseapp.com
+2020-02-27 22:47:24,519 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] getProducts
+2020-02-27 22:47:25,587 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-1] fallbackMethod getProductsFallBack
+2020-02-27 22:47:25,587 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-1] fallbackMethod getProductsFallBack
+2020-02-27 22:47:31,012 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] Class ProductResource Method getProducts
+2020-02-27 22:47:31,013 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] ++++++++++++++++++++++https://mobile-tha-server-8ba57.firebaseapp.com
+2020-02-27 22:47:31,013 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] getProducts
+2020-02-27 22:47:32,014 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-1] fallbackMethod getProductsFallBack
+2020-02-27 22:47:32,015 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-1] fallbackMethod getProductsFallBack
+2020-02-27 22:47:34,352 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-3] Class ProductResource Method getProducts
+2020-02-27 22:47:34,352 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-3] ++++++++++++++++++++++https://mobile-tha-server-8ba57.firebaseapp.com
+2020-02-27 22:47:34,352 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-3] getProducts
+2020-02-27 22:47:35,356 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-2] fallbackMethod getProductsFallBack
+2020-02-27 22:47:35,357 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-2] fallbackMethod getProductsFallBack
+2020-02-27 22:47:38,028 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-4] Class ProductResource Method getProducts
+2020-02-27 22:47:38,028 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-4] ++++++++++++++++++++++https://mobile-tha-server-8ba57.firebaseapp.com
+2020-02-27 22:47:38,028 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-4] getProducts
+2020-02-27 22:47:44,722 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-5] Class ProductResource Method getProducts
+2020-02-27 22:47:44,722 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-5] ++++++++++++++++++++++https://mobile-tha-server-8ba57.firebaseapp.com
+2020-02-27 22:47:44,723 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-5] getProducts
+2020-02-27 23:14:46,530 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-27 23:14:49,592 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=2ceeead6-acb4-37d1-9b56-bf244f92a500
+2020-02-27 23:14:52,847 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-02-27 23:14:52,904 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 23:14:52,913 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-02-27 23:14:52,913 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 23:14:53,332 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-02-27 23:14:53,333 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 6661 ms
+2020-02-27 23:14:53,773 WARN org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration [restartedMain] No spring.application.name found, defaulting to 'application'
+2020-02-27 23:14:53,794 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 23:14:53,795 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 23:14:54,008 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 23:14:54,008 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 23:14:54,635 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 23:14:55,205 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-02-27 23:14:56,477 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-27 23:14:56,590 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 23:14:57,239 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] Started WalmartAssignmentApplication in 16.037 seconds (JVM running for 17.764)
+2020-02-27 23:14:57,243 DEBUG com.walmartassignment.WalmartAssignmentApplication [restartedMain] Application Started ...
+2020-02-27 23:15:11,943 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 23:15:11,945 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-02-27 23:15:11,970 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 25 ms
+2020-02-27 23:15:13,461 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] Class ProductResource Method getProducts
+2020-02-27 23:15:13,461 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] getProducts
+2020-02-27 23:15:14,453 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-1] fallbackMethod getProductsFallBack
+2020-02-27 23:15:14,453 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-1] fallbackMethod getProductsFallBack
+2020-02-27 23:15:18,178 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] Class ProductResource Method getProducts
+2020-02-27 23:15:18,179 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] getProducts
+2020-02-27 23:15:18,214 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] fallbackMethod getProductsFallBack
+2020-02-27 23:15:18,214 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] fallbackMethod getProductsFallBack
+2020-02-27 23:15:21,283 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-3] Class ProductResource Method getProducts
+2020-02-27 23:15:21,283 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-3] getProducts
+2020-02-27 23:15:21,323 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-3] fallbackMethod getProductsFallBack
+2020-02-27 23:15:21,323 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-3] fallbackMethod getProductsFallBack
+2020-02-27 23:15:30,115 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-4] Class ProductResource Method getProducts
+2020-02-27 23:15:30,115 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-4] getProducts
+2020-02-27 23:15:30,248 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-4] fallbackMethod getProductsFallBack
+2020-02-27 23:15:30,249 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-4] fallbackMethod getProductsFallBack
+2020-02-27 23:15:31,668 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-5] Class ProductResource Method getProducts
+2020-02-27 23:15:31,668 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-5] getProducts
+2020-02-27 23:15:31,702 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-5] fallbackMethod getProductsFallBack
+2020-02-27 23:15:31,702 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-5] fallbackMethod getProductsFallBack
+2020-02-27 23:15:32,769 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-6] Class ProductResource Method getProducts
+2020-02-27 23:15:32,769 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-6] getProducts
+2020-02-27 23:15:32,801 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-6] fallbackMethod getProductsFallBack
+2020-02-27 23:15:32,801 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-6] fallbackMethod getProductsFallBack
+2020-02-27 23:15:33,753 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-7] Class ProductResource Method getProducts
+2020-02-27 23:15:33,753 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-7] getProducts
+2020-02-27 23:15:33,785 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-7] fallbackMethod getProductsFallBack
+2020-02-27 23:15:33,785 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-7] fallbackMethod getProductsFallBack
+2020-02-27 23:16:00,249 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-8] Class ProductResource Method getProducts
+2020-02-27 23:16:00,250 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-8] getProducts
+2020-02-27 23:16:00,343 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-8] fallbackMethod getProductsFallBack
+2020-02-27 23:16:00,343 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-8] fallbackMethod getProductsFallBack
+2020-02-27 23:16:01,659 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-9] Class ProductResource Method getProducts
+2020-02-27 23:16:01,660 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-9] getProducts
+2020-02-27 23:16:01,695 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-9] fallbackMethod getProductsFallBack
+2020-02-27 23:16:01,695 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-9] fallbackMethod getProductsFallBack
+2020-02-27 23:16:10,320 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] Class ProductResource Method getProducts
+2020-02-27 23:16:10,321 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:16:10,812 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:16:10,812 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:17:42,943 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] Class ProductResource Method getProducts
+2020-02-27 23:17:42,943 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:17:43,038 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:17:43,038 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:17:49,561 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] Class ProductResource Method getProducts
+2020-02-27 23:17:49,561 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:17:50,113 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:17:50,113 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:18:05,659 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] Class ProductResource Method getProducts
+2020-02-27 23:18:05,660 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:18:05,759 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:18:05,759 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:18:09,228 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] Class ProductResource Method getProducts
+2020-02-27 23:18:09,228 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:18:09,262 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:18:09,262 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:19:06,134 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] Class ProductResource Method getProducts
+2020-02-27 23:19:06,135 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:19:06,236 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:19:06,237 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:19:07,715 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] Class ProductResource Method getProducts
+2020-02-27 23:19:07,716 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:19:07,748 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:19:07,748 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:19:08,892 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] Class ProductResource Method getProducts
+2020-02-27 23:19:08,893 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:19:08,928 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:19:08,928 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:20:01,235 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-8] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 23:20:05,201 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-27 23:20:06,178 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=2ceeead6-acb4-37d1-9b56-bf244f92a500
+2020-02-27 23:20:06,638 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-02-27 23:20:06,640 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 23:20:06,641 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-02-27 23:20:06,643 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 23:20:06,815 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-02-27 23:20:06,817 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 1585 ms
+2020-02-27 23:20:07,034 WARN org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration [restartedMain] No spring.application.name found, defaulting to 'application'
+2020-02-27 23:20:07,035 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 23:20:07,035 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 23:20:07,374 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 23:20:07,670 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-02-27 23:20:09,214 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-27 23:20:09,221 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 23:20:09,940 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] Started WalmartAssignmentApplication in 6.328 seconds (JVM running for 330.465)
+2020-02-27 23:20:09,944 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-02-27 23:20:09,945 DEBUG com.walmartassignment.WalmartAssignmentApplication [restartedMain] Application Started ...
+2020-02-27 23:20:57,430 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 23:20:57,432 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-02-27 23:20:57,442 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 9 ms
+2020-02-27 23:20:57,458 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] Class ProductResource Method getProducts
+2020-02-27 23:20:57,458 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] getProducts
+2020-02-27 23:20:57,633 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] fallbackMethod getProductsFallBack
+2020-02-27 23:20:57,634 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] fallbackMethod getProductsFallBack
+2020-02-27 23:21:37,565 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-12] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 23:21:39,451 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-27 23:21:39,930 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=2ceeead6-acb4-37d1-9b56-bf244f92a500
+2020-02-27 23:21:40,226 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-02-27 23:21:40,228 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 23:21:40,229 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-02-27 23:21:40,229 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 23:21:41,346 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-02-27 23:21:41,346 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 1886 ms
+2020-02-27 23:21:41,462 WARN org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration [restartedMain] No spring.application.name found, defaulting to 'application'
+2020-02-27 23:21:41,463 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 23:21:41,463 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 23:21:41,658 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 23:21:41,818 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-02-27 23:21:43,124 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-27 23:21:43,129 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 23:21:43,624 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] Started WalmartAssignmentApplication in 5.412 seconds (JVM running for 424.149)
+2020-02-27 23:21:43,625 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-02-27 23:21:43,626 DEBUG com.walmartassignment.WalmartAssignmentApplication [restartedMain] Application Started ...
+2020-02-27 23:22:25,163 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-27 23:22:27,741 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=2ceeead6-acb4-37d1-9b56-bf244f92a500
+2020-02-27 23:22:30,883 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-02-27 23:22:30,923 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 23:22:30,925 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-02-27 23:22:30,926 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 23:22:31,938 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-02-27 23:22:31,939 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 6734 ms
+2020-02-27 23:22:32,665 WARN org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration [restartedMain] No spring.application.name found, defaulting to 'application'
+2020-02-27 23:22:32,675 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 23:22:32,676 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 23:22:32,707 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 23:22:32,708 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 23:22:34,964 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-27 23:23:18,508 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-27 23:23:21,059 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=2ceeead6-acb4-37d1-9b56-bf244f92a500
+2020-02-27 23:23:24,715 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-02-27 23:23:24,764 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 23:23:24,765 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-02-27 23:23:24,765 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 23:23:25,085 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-02-27 23:23:25,085 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 6465 ms
+2020-02-27 23:23:25,631 WARN org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration [restartedMain] No spring.application.name found, defaulting to 'application'
+2020-02-27 23:23:25,654 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 23:23:25,655 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 23:23:25,722 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 23:23:25,722 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 23:23:26,471 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 23:23:27,174 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-02-27 23:23:28,890 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-27 23:23:29,058 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 23:23:29,715 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] Started WalmartAssignmentApplication in 16.21 seconds (JVM running for 27.954)
+2020-02-27 23:23:29,717 DEBUG com.walmartassignment.WalmartAssignmentApplication [restartedMain] Application Started ...
+2020-02-27 23:23:41,840 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 23:23:41,842 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-02-27 23:23:41,881 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 39 ms
+2020-02-27 23:23:43,343 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] getProducts
+2020-02-27 23:23:43,344 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] getProducts
+2020-02-27 23:23:44,309 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-1] fallbackMethod getProductsFallBack
+2020-02-27 23:23:44,309 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-1] fallbackMethod getProductsFallBack
+2020-02-27 23:24:26,484 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] getProducts
+2020-02-27 23:24:26,485 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] getProducts
+2020-02-27 23:24:27,485 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-1] fallbackMethod getProductsFallBack
+2020-02-27 23:24:27,485 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-1] fallbackMethod getProductsFallBack
+2020-02-27 23:35:29,955 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-27 23:35:32,480 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=2ceeead6-acb4-37d1-9b56-bf244f92a500
+2020-02-27 23:35:36,761 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-02-27 23:35:36,974 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 23:35:36,983 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-02-27 23:35:36,984 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 23:35:37,366 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-02-27 23:35:37,366 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 7300 ms
+2020-02-27 23:35:37,748 WARN org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration [restartedMain] No spring.application.name found, defaulting to 'application'
+2020-02-27 23:35:37,758 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 23:35:37,758 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 23:35:37,795 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 23:35:37,795 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 23:35:38,391 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 23:35:38,986 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-02-27 23:35:40,516 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-27 23:35:40,633 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 23:35:41,196 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] Started WalmartAssignmentApplication in 15.909 seconds (JVM running for 17.547)
+2020-02-27 23:35:41,198 DEBUG com.walmartassignment.WalmartAssignmentApplication [restartedMain] Application Started ...
+2020-02-27 23:35:50,478 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 23:35:50,479 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-02-27 23:35:50,516 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 36 ms
+2020-02-27 23:35:51,933 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] getProducts
+2020-02-27 23:35:51,935 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] getProducts
+2020-02-27 23:35:52,925 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-1] fallbackMethod getProductsFallBack
+2020-02-27 23:35:52,925 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-1] fallbackMethod getProductsFallBack
+2020-02-27 23:35:56,548 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] getProducts
+2020-02-27 23:35:56,548 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] getProducts
+2020-02-27 23:35:56,583 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] fallbackMethod getProductsFallBack
+2020-02-27 23:35:56,584 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] fallbackMethod getProductsFallBack
+2020-02-27 23:36:33,117 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-8] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 23:36:35,778 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-27 23:36:36,301 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=2ceeead6-acb4-37d1-9b56-bf244f92a500
+2020-02-27 23:36:36,699 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-02-27 23:36:36,701 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 23:36:36,702 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-02-27 23:36:36,703 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 23:36:36,848 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-02-27 23:36:36,848 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 1056 ms
+2020-02-27 23:36:36,968 WARN org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration [restartedMain] No spring.application.name found, defaulting to 'application'
+2020-02-27 23:36:36,969 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 23:36:36,969 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 23:36:37,177 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 23:36:37,312 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-02-27 23:36:38,384 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-27 23:36:38,391 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 23:36:39,168 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] Started WalmartAssignmentApplication in 4.965 seconds (JVM running for 75.519)
+2020-02-27 23:36:39,171 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-02-27 23:36:39,172 DEBUG com.walmartassignment.WalmartAssignmentApplication [restartedMain] Application Started ...
+2020-02-27 23:36:43,941 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 23:36:43,943 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-02-27 23:36:43,949 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2020-02-27 23:36:43,966 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] getProducts
+2020-02-27 23:36:43,966 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] getProducts
+2020-02-27 23:36:44,207 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] fallbackMethod getProductsFallBack
+2020-02-27 23:36:44,208 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] fallbackMethod getProductsFallBack
+2020-02-27 23:36:45,720 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] getProducts
+2020-02-27 23:36:45,721 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] getProducts
+2020-02-27 23:36:45,765 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] fallbackMethod getProductsFallBack
+2020-02-27 23:36:45,766 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] fallbackMethod getProductsFallBack
+2020-02-27 23:36:46,761 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-3] getProducts
+2020-02-27 23:36:46,762 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-3] getProducts
+2020-02-27 23:36:46,819 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-3] fallbackMethod getProductsFallBack
+2020-02-27 23:36:46,820 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-3] fallbackMethod getProductsFallBack
+2020-02-27 23:36:47,621 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-4] getProducts
+2020-02-27 23:36:47,622 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-4] getProducts
+2020-02-27 23:36:47,654 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-4] fallbackMethod getProductsFallBack
+2020-02-27 23:36:47,655 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-4] fallbackMethod getProductsFallBack
+2020-02-27 23:36:48,367 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-5] getProducts
+2020-02-27 23:36:48,367 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-5] getProducts
+2020-02-27 23:36:48,402 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-5] fallbackMethod getProductsFallBack
+2020-02-27 23:36:48,403 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-5] fallbackMethod getProductsFallBack
+2020-02-27 23:36:49,065 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-6] getProducts
+2020-02-27 23:36:49,065 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-6] getProducts
+2020-02-27 23:36:49,097 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-6] fallbackMethod getProductsFallBack
+2020-02-27 23:36:49,097 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-6] fallbackMethod getProductsFallBack
+2020-02-27 23:36:49,610 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-7] getProducts
+2020-02-27 23:36:49,611 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-7] getProducts
+2020-02-27 23:36:49,643 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-7] fallbackMethod getProductsFallBack
+2020-02-27 23:36:49,643 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-7] fallbackMethod getProductsFallBack
+2020-02-27 23:36:49,946 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-8] getProducts
+2020-02-27 23:36:49,947 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-8] getProducts
+2020-02-27 23:36:49,985 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-8] fallbackMethod getProductsFallBack
+2020-02-27 23:36:49,986 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-8] fallbackMethod getProductsFallBack
+2020-02-27 23:36:50,251 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-9] getProducts
+2020-02-27 23:36:50,303 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-9] getProducts
+2020-02-27 23:36:50,336 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-9] fallbackMethod getProductsFallBack
+2020-02-27 23:36:50,336 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-9] fallbackMethod getProductsFallBack
+2020-02-27 23:36:50,575 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:50,575 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:50,614 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:50,614 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:50,889 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:50,889 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:50,922 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:50,923 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:51,186 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:51,186 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:51,220 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:51,221 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:51,492 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:51,493 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:51,524 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:51,524 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:51,807 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:51,807 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:51,842 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:51,842 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:52,142 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:52,142 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:52,173 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:52,174 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:52,449 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:52,449 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:52,483 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:52,483 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:52,771 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:52,772 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:52,806 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:52,806 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:53,091 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:53,092 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:53,125 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:53,126 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:53,398 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:53,398 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:53,430 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:53,431 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:53,742 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:53,742 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:53,780 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:53,781 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:54,073 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:54,074 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:54,408 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-6] fallbackMethod getProductsFallBack
+2020-02-27 23:36:54,408 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-6] fallbackMethod getProductsFallBack
+2020-02-27 23:36:54,754 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-7] fallbackMethod getProductsFallBack
+2020-02-27 23:36:54,755 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-7] fallbackMethod getProductsFallBack
+2020-02-27 23:36:55,100 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-2] fallbackMethod getProductsFallBack
+2020-02-27 23:36:55,101 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-2] fallbackMethod getProductsFallBack
+2020-02-27 23:36:56,008 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-5] fallbackMethod getProductsFallBack
+2020-02-27 23:36:56,009 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-5] fallbackMethod getProductsFallBack
+2020-02-27 23:36:56,912 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-9] fallbackMethod getProductsFallBack
+2020-02-27 23:36:56,913 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-9] fallbackMethod getProductsFallBack
+2020-02-27 23:36:57,792 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-8] fallbackMethod getProductsFallBack
+2020-02-27 23:36:57,792 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-8] fallbackMethod getProductsFallBack
+2020-02-27 23:36:58,153 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-1] fallbackMethod getProductsFallBack
+2020-02-27 23:36:58,154 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-1] fallbackMethod getProductsFallBack
+2020-02-27 23:36:58,496 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-4] fallbackMethod getProductsFallBack
+2020-02-27 23:36:58,497 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-4] fallbackMethod getProductsFallBack
+2020-02-27 23:36:58,837 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:58,837 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:59,179 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:59,179 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:36:59,270 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:59,271 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:36:59,506 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-7] fallbackMethod getProductsFallBack
+2020-02-27 23:36:59,506 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-7] fallbackMethod getProductsFallBack
+2020-02-27 23:36:59,710 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-2] fallbackMethod getProductsFallBack
+2020-02-27 23:36:59,711 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-2] fallbackMethod getProductsFallBack
+2020-02-27 23:37:54,421 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:37:54,421 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] getProducts
+2020-02-27 23:37:54,514 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:37:54,515 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-10] fallbackMethod getProductsFallBack
+2020-02-27 23:37:56,048 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-8] fallbackMethod getProductsFallBack
+2020-02-27 23:37:56,048 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-8] fallbackMethod getProductsFallBack
+2020-02-27 23:37:57,140 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-1] fallbackMethod getProductsFallBack
+2020-02-27 23:37:57,140 DEBUG com.walmartassignment.resource.ProductResource [http-nio-8080-exec-1] fallbackMethod getProductsFallBack
+2020-02-27 23:38:41,466 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-12] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 23:38:43,460 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-27 23:38:43,908 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=2ceeead6-acb4-37d1-9b56-bf244f92a500
+2020-02-27 23:38:44,184 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-02-27 23:38:44,185 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 23:38:44,185 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-02-27 23:38:44,186 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 23:38:44,283 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-02-27 23:38:44,284 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 816 ms
+2020-02-27 23:38:44,364 WARN org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration [restartedMain] No spring.application.name found, defaulting to 'application'
+2020-02-27 23:38:44,365 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 23:38:44,366 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 23:38:44,551 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 23:38:44,670 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-02-27 23:38:45,863 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-27 23:38:45,872 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 23:38:46,444 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] Started WalmartAssignmentApplication in 4.284 seconds (JVM running for 202.796)
+2020-02-27 23:38:46,446 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-02-27 23:38:46,446 DEBUG com.walmartassignment.WalmartAssignmentApplication [restartedMain] Application Started ...
+2020-02-27 23:38:55,264 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 23:38:55,265 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-02-27 23:38:55,275 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 9 ms
+2020-02-27 23:38:55,283 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] getProducts
+2020-02-27 23:38:55,284 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] getProducts
+2020-02-27 23:38:55,385 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] fallbackMethod getProductsFallBack
+2020-02-27 23:38:55,385 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] fallbackMethod getProductsFallBack
+2020-02-27 23:38:56,707 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] getProducts
+2020-02-27 23:38:56,707 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] getProducts
+2020-02-27 23:38:56,739 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] fallbackMethod getProductsFallBack
+2020-02-27 23:38:56,739 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-2] fallbackMethod getProductsFallBack
+2020-02-27 23:39:12,522 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-3] getProducts
+2020-02-27 23:39:12,523 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-3] getProducts
+2020-02-27 23:39:12,615 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-3] fallbackMethod getProductsFallBack
+2020-02-27 23:39:12,616 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-3] fallbackMethod getProductsFallBack
+2020-02-27 23:39:41,386 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-20] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-27 23:39:43,456 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-27 23:39:44,284 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=2ceeead6-acb4-37d1-9b56-bf244f92a500
+2020-02-27 23:39:44,839 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-02-27 23:39:44,840 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-27 23:39:44,841 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-02-27 23:39:44,841 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 23:39:44,943 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-02-27 23:39:44,944 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 1483 ms
+2020-02-27 23:39:45,140 WARN org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration [restartedMain] No spring.application.name found, defaulting to 'application'
+2020-02-27 23:39:45,141 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 23:39:45,142 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 23:39:45,424 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 23:39:45,609 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-02-27 23:39:47,162 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-27 23:39:47,169 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 23:39:47,793 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] Started WalmartAssignmentApplication in 5.507 seconds (JVM running for 264.144)
+2020-02-27 23:39:47,795 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-02-27 23:39:47,796 DEBUG com.walmartassignment.WalmartAssignmentApplication [restartedMain] Application Started ...
+2020-02-27 23:40:20,206 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-28] Shutting down ExecutorService 'applicationTaskExecutor'
