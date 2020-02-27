@@ -1,0 +1,43 @@
+2020-02-27 08:39:34,473 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-27 08:39:34,834 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=1c29bd3b-49de-3953-83f8-1b4908bbd360
+2020-02-27 08:39:35,045 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-02-27 08:39:35,046 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-02-27 08:39:35,047 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 08:39:35,127 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-02-27 08:39:35,128 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 648 ms
+2020-02-27 08:39:35,194 WARN org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration [restartedMain] No spring.application.name found, defaulting to 'application'
+2020-02-27 08:39:35,195 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 08:39:35,195 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 08:39:35,338 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 08:39:35,451 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-02-27 08:39:36,650 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 08:39:37,147 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] Started WalmartAssignmentApplication in 3.844 seconds (JVM running for 822.21)
+2020-02-27 08:39:37,148 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-02-27 08:39:37,149 DEBUG com.walmartassignment.WalmartAssignmentApplication [restartedMain] Application Started ...
+2020-02-27 08:40:26,429 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 08:40:26,431 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-02-27 08:40:26,436 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2020-02-27 08:40:26,453 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] Class ProductResource Method getProducts
+2020-02-27 08:40:27,455 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-1] Class ProductResource Method getProducts fallbackMethod getProductsFallBack
+2020-02-27 08:45:24,624 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-27 08:45:28,117 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=1c29bd3b-49de-3953-83f8-1b4908bbd360
+2020-02-27 08:45:31,422 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-02-27 08:45:31,446 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-02-27 08:45:31,447 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-27 08:45:32,086 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-02-27 08:45:32,087 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 7333 ms
+2020-02-27 08:45:32,610 WARN org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration [restartedMain] No spring.application.name found, defaulting to 'application'
+2020-02-27 08:45:32,623 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 08:45:32,623 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 08:45:32,643 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-02-27 08:45:32,644 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-27 08:45:33,243 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 08:45:50,290 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-02-27 08:45:52,574 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 08:45:53,388 INFO com.walmartassignment.WalmartAssignmentApplication [restartedMain] Started WalmartAssignmentApplication in 35.082 seconds (JVM running for 52.519)
+2020-02-27 08:45:53,392 DEBUG com.walmartassignment.WalmartAssignmentApplication [restartedMain] Application Started ...
+2020-02-27 08:46:17,963 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-27 08:46:17,965 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-02-27 08:46:17,994 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 29 ms
+2020-02-27 08:46:19,640 DEBUG com.walmartassignment.resource.ProductResource [hystrix-ProductResource-1] Class ProductResource Method getProducts
+2020-02-27 08:46:20,719 DEBUG com.walmartassignment.resource.ProductResource [HystrixTimer-1] Class ProductResource Method getProducts fallbackMethod getProductsFallBack
